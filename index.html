@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <title>Happy Birthday!!! :)</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Handlee&display=swap"
+        rel="stylesheet">
+    <!-- My Style -->
+    <link rel="stylesheet" href="./style/main.css" />
+</head>
+
+<body>
+
+    <audio class="song" loop preload="auto">
+        <source src="./music/musicc2.mpeg" type="audio/mpeg">
+        </source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+
+    <!-- Music Control Button -->
+    <button id="music-control"
+        style="display: none; position: fixed; top: 10px; right: 10px; z-index: 1000; background: rgba(255,255,255,0.7); border: none; border-radius: 50%; width: 40px; height: 40px; font-size: 20px; cursor: pointer;">🎵</button>
+
+    <!-- Password Overlay -->
+    <div id="password-overlay">
+        <div class="password-box">
+            <h2>Enter Password</h2>
+            <p>To access this special page, please enter the magic code!</p>
+            <input type="password" id="passwordInput" placeholder="Enter password" />
+            <button id="submitPassword">Unlock</button>
+            <p id="error-message" style="color: red; display: none; margin-top: 10px;">Incorrect Password! Try again.
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="one">
+            <h1 class="one">
+                Hi
+                <span id="name">Bestieee!</span>
+            </h1>
+            <p class="two" id="greetingText">You know what day it is?</p>
+        </div>
+
+        <div class="three">
+            <p>It's your birthday!! :D</p>
+        </div>
+
+        <div class="four">
+            <div class="text-box">
+                <p class="hbd-chatbox">
+                    Happy birthday to youu!! I just want you to know how much you mean to me.
+                    You’ve been there for me in ways I’ll never forget, and I’m so grateful for you.
+                    I hope this year brings you new memories, big smiles, and lots of happiness.
+                    Always cheering for you 💖
+                </p>
+                <p class="fake-btn">Send</p>
+            </div>
+        </div>
+
+        <div class="five">
+            <p class="idea-1">That's what I was going to do.</p>
+            <p class="idea-2">But then I stopped.</p>
+            <p class="idea-3">
+                I realised, I wanted to do something<br>
+                <strong>special</strong>
+                .
+            </p>
+            <p class="idea-4">Because,</p>
+            <p class="idea-5">
+                You are Special
+                <span>:)</span>
+            </p>
+            <p class="idea-6">
+                <span>S</span>
+                <span>O</span>
+            </p>
+        </div>
+
+        <div class="six">
+            <img src="./img/Bestiee.png" alt="profile" class="profile-picture" id="imagePath" />
+            <img src="img/hat.svg" alt="hat" class="hat" />
+            <div class="wish">
+                <h3 class="wish-hbd">Happy Birthday Bestieee!</h3>
+                <h5 id="wishText">May this year be filled with joy, laughter, and success ;)
+                    <br>
+                    </br>
+                    wait a minute. It is not over yet.
+                </h5>
+            </div>
+        </div>
+
+        <div class="seven">
+            <div class="baloons">
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+            </div>
+        </div>
+
+        <div class="eight">
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+        </div>
+
+
+
+        <!-- New Photo Gallery Section -->
+        <div class="ten">
+            <!-- Decorations -->
+            <div class="decorations">
+                <svg class="deco-flower" viewBox="0 0 100 100" style="top: 10%; left: 10%;">
+                    <circle cx="50" cy="50" r="15" fill="#ffb7b2" />
+                    <circle cx="50" cy="20" r="15" fill="#ff9aa2" />
+                    <circle cx="80" cy="50" r="15" fill="#ff9aa2" />
+                    <circle cx="50" cy="80" r="15" fill="#ff9aa2" />
+                    <circle cx="20" cy="50" r="15" fill="#ff9aa2" />
+                </svg>
+                <svg class="deco-star" viewBox="0 0 50 50" style="top: 20%; right: 15%;">
+                    <polygon points="25,2 31,18 48,18 34,28 39,45 25,35 11,45 16,28 2,18 19,18" fill="#ffd54f" />
+                </svg>
+                <svg class="deco-flower" viewBox="0 0 100 100" style="bottom: 15%; right: 10%;">
+                    <circle cx="50" cy="50" r="15" fill="#e2f0cb" />
+                    <circle cx="50" cy="20" r="15" fill="#c7ceea" />
+                    <circle cx="80" cy="50" r="15" fill="#c7ceea" />
+                    <circle cx="50" cy="80" r="15" fill="#c7ceea" />
+                    <circle cx="20" cy="50" r="15" fill="#c7ceea" />
+                </svg>
+                <svg class="deco-star" viewBox="0 0 50 50" style="bottom: 25%; left: 12%;">
+                    <polygon points="25,2 31,18 48,18 34,28 39,45 25,35 11,45 16,28 2,18 19,18" fill="#a2dff7" />
+                </svg>
+            </div>
+
+            <div class="gallery">
+                <img src="img/img1.JPG.jpeg" alt="Memory 1" class="gallery-img">
+                <img src="img/img3.JPG.jpeg" alt="Memory 2" class="gallery-img">
+                <img src="img/img2.JPG.jpeg" alt="Memory 3" class="gallery-img">
+                <!-- User can replace these or add more -->
+            </div>
+            <p class="gallery-message">So many beautiful moments!</p>
+        </div>
+
+        <!-- Diary Section -->
+        <div class="eleven">
+            <h2 class="diary-title">Dear Bestie,</h2>
+            <div class="diary-content">
+                <p>
+                    I just wanted to take a moment to write something special for you,
+                    because you truly deserve it. Having you in my life is one of the best
+                    things that has ever happened to me. You’ve been there through my smiles,
+                    my silence, and even the days when I didn’t know how to explain what I was
+                    feeling. You bring so much warmth, laughter, and comfort into my world,
+                    and I’m endlessly grateful for you.
+                </p>
+                <p>
+                    I hope this new year of your life brings you peace,
+                    happiness, and everything your heart has been wishing for.
+                    Never forget how special you are to me.
+                    Happy Birthday, Bestie.
+
+                </p>
+                <p class="signature">- With Love, Harish</p>
+            </div>
+        </div>
+    </div>
+    <div class="nine">
+
+    </div>
+
+    <!-- Floating Hearts Background -->
+    <div class="floating-hearts"></div>
+
+    <!-- Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</body>
+<!-- Greensock -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<!-- Sweetalert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="application/javascript" src="./script/main.js"></script>
+
+</html>
